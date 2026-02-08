@@ -58,7 +58,7 @@ Aqui se subieron los diferentes archivos del formulario como fue el index.html l
 
 ### Enlaces
 
-- URL en GITHUB de tu proyecto:
+- URL en GITHUB de tu proyecto: https://github.com/frederickgabriel/Lenguajes-y-frameworks-backend.git
 - URL del site: https://lenguajesyframeworksbackend.infinityfreeapp.com/
 
 ## Autor
@@ -68,4 +68,3 @@ Aqui se subieron los diferentes archivos del formulario como fue el index.html l
 - Sitio  - FREDERICK GABRIEL AGUILAR PUC (https://lenguajesyframeworksbackend.infinityfreeapp.com/)
 - Github - frederickgabriel (https://github.com/frederickgabriel/Lenguajes-y-frameworks-backend.git)
 
-**Nota: Elimina esta nota y agrega/elimina/edita las líneas anteriores según los enlaces que desees compartir.**
