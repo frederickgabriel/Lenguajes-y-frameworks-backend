@@ -36,12 +36,17 @@ Asegúrate de documentar tu configuración y cualquier instrucción especial par
 
 Agrega una captura de pantalla de tu solución. La forma más fácil de hacerlo es usar un navegador para ver tu proyecto, hacer clic derecho en la página y seleccionar "Tomar una captura de pantalla". Puedes elegir una captura de pantalla de altura completa o una recortada según la longitud de la página. Si es muy larga, puede ser mejor recortarla.
 Luego recorta/optimiza/edita tu imagen como desees, agrégala a tu carpeta de proyecto y actualiza la ruta del archivo en la imagen de arriba.
+
 <img width="1919" height="958" alt="image" src="https://github.com/user-attachments/assets/66e749de-d9a8-4038-8ca7-ce6fcb10260b" />
+
 Esta captura de pantalla es cuando esta corrinedo el formulario de manera local para ello se uso xxamp y mysql mediante un conector que se genero en el leguaje PHP y otro archivo el cual nos sirvio para hacer la peticion de guardar nuestro datos.
+
 <img width="823" height="534" alt="image" src="https://github.com/user-attachments/assets/a3d15171-0c3e-43af-867d-c5ae1fafac54" />
+
 <img width="1242" height="569" alt="image" src="https://github.com/user-attachments/assets/2bc1b91a-9916-4aeb-b864-fa12931dab89" />
 
 En esta siguiente imagen ya se esta corriendo el formulario en un host donde se alojo de forma gratuita (https://dash.infinityfree.com/)
+
 <img width="1913" height="968" alt="image" src="https://github.com/user-attachments/assets/56f8e03e-36f4-4ae9-bfe6-da73ec8a154d" />
 
 
