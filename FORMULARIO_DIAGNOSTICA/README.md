@@ -66,6 +66,6 @@ Aqui se subieron los diferentes archivos del formulario como fue el index.html l
 - N° Control: 221K0032
 - Grupo: 8B 
 - Sitio  - FREDERICK GABRIEL AGUILAR PUC (https://lenguajesyframeworksbackend.infinityfreeapp.com/)
-- Github - [@tuusuario](https://https://github.com/tuusuario)
+- Github - frederickgabriel (https://https://github.com/tuusuario)
 
 **Nota: Elimina esta nota y agrega/elimina/edita las líneas anteriores según los enlaces que desees compartir.**
