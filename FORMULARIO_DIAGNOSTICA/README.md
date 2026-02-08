@@ -49,17 +49,23 @@ En esta siguiente imagen ya se esta corriendo el formulario en un host donde se 
 
 <img width="1913" height="968" alt="image" src="https://github.com/user-attachments/assets/56f8e03e-36f4-4ae9-bfe6-da73ec8a154d" />
 
+Aqui se subieron los diferentes archivos del formulario como fue el index.html la hoja de estilo, los archivos de javaScrip al igual que se importo la base de datos 
+
+<img width="1245" height="466" alt="image" src="https://github.com/user-attachments/assets/c2f486f7-93a5-4292-a8bf-3eaa6aad56d5" />
+
+<img width="1579" height="679" alt="image" src="https://github.com/user-attachments/assets/dcdba9ef-c983-4f9c-9f5d-02a0d22ab6cb" />
+
 
 ### Enlaces
 
 - URL en GITHUB de tu proyecto:
-- URL del site:[Agrega la URL del sitio en vivo aquí](https://your-live-site-url.com)
+- URL del site: https://lenguajesyframeworksbackend.infinityfreeapp.com/
 
 ## Autor
-- Nombre completo 
-- N° Control
-- Grupo
-- Sitio  - [Agrega tu nombre aquí](https://www.your-site.com)
+- Nombre completo: FREDERICK GABRIEL AGUILAR PUC 
+- N° Control: 221K0032
+- Grupo: 8B 
+- Sitio  - FREDERICK GABRIEL AGUILAR PUC (https://lenguajesyframeworksbackend.infinityfreeapp.com/)
 - Github - [@tuusuario](https://https://github.com/tuusuario)
 
 **Nota: Elimina esta nota y agrega/elimina/edita las líneas anteriores según los enlaces que desees compartir.**
