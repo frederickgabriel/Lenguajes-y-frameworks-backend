@@ -3,8 +3,8 @@ Solución del formulario de contacto
 ## Tabla de contenidos
 
 - [Resumen](#resumen)
-  - [Captura de pantalla](#captura-de-pantalla)
-  - [Enlaces](#enlaces)
+- [Captura de pantalla](#captura-de-pantalla)
+- [Enlaces](#enlaces)
 - [Autor](#autor)
 
 ## Resumen
