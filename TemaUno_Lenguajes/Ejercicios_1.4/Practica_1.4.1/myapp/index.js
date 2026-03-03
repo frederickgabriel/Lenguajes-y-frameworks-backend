@@ -29,6 +29,10 @@ app.get("/", (req, res) => {
   res.send("<h1>Acerca de</h1>");
   });
 
+  app.get("/contacto", (req, res) => {
+  res.send("<h1>9837009882📱</h1>");
+  });
+
   app.use((req, res) => {
   res.status(404).send("<h1>404 Not Found</h1>");
   });
