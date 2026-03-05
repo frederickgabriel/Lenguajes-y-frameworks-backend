@@ -1,4 +1,4 @@
-
+//Por Frederick Gabriel Aguilar Puc
 import generateName from 'sillyname';
 var sillyName = generateName();
 

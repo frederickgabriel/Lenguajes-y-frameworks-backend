@@ -1,4 +1,5 @@
 // Funciones matemáticas
+//Por Frederick Gabriel Aguilar Puc
 function suma(a, b) {
     return a + b;
 }
