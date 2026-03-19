@@ -15,15 +15,17 @@
     <div class="container mt-5 col-4">
         <h1 class="text-center">Generador nombre equipo</h1>
 
-        <form action="/submit" method="POST" class="mt-5">
+        <form action="/submit" method="POST" class="mt-5"><!--  aqui se dividen los datos del servidor -->
 
             <div class="form-group">
                 <label for="adjetivo">Cualidad:</label>
-                <input type="text" class="form-control" name="adjetivo" required>
+                <!-- ten en cuenta esta parte por que el nombre que se le pone a esa clase name"objetivo" se va usar mas adelante -->
+                <input type="text" class="form-control" name="adjetivo" required> 
             </div>
 
             <div class="form-group">
                 <label for="mascota">Mascota preferida:</label>
+                <!-- ten en cuenta esta parte por que el nombre que se le pone a esa clase name"mascota" se va usar mas adelante -->
                 <input type="text" class="form-control" name="mascota" required>
             </div>
 

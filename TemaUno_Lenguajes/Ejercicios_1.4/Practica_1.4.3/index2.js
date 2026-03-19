@@ -23,10 +23,12 @@ function registrador(req, res, next) {
   next(); 
 }
 app.use(bodyParser.urlencoded({ extended: true }));
- 
+
+
 app.get("/", (req, res) => {
   res.sendFile(_dirname + "/Public/index.html");
 });
+
 app.use(registrador);
 app.post("/submit", (req, res) => {
   console.log(req.body);
