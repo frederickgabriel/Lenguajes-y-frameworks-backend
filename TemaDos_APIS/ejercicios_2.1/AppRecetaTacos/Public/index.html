@@ -1,0 +1,48 @@
+<!-- Por frederick gabriel aguilar puc -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Tacoschidos 🌮</h1>
+    
+<form id="Form" class="buttons">
+    <button type="button" data-type="Cerdo">🐷</button>
+    <button type="button" data-type="Puerco">🐷</button>
+    <button type="button" data-type="Pavo">🐔</button>
+    <button type="button" data-type="Pescado">🐟</button>
+</form>
+<div id="Container"></div>
+
+    <script>
+        document.querySelectorAll("#Form button").forEach(button => {
+                button.addEventListener("click", async (event) => {
+                    const type = event.target.getAttribute("data-type").toLowerCase();
+
+
+                    const response = await fetch(`/receta/${type}`);
+                    const receta = await response.json();
+
+
+                    const contenedor = document.getElementById("Container");
+                    if (receta.error) {
+                        contenedor.innerHTML = "<h2>Receta no encontrada</h2>"; //si no se recupera el contenido HTML de un elemento.
+                    } else {
+                        contenedor.innerHTML = `
+                <h2>${receta.nombre}</h2> 
+                <h3>Ingredientes:</h3>
+                <ul id="ingredientesLista">
+                <li>Carne de: ${receta.ingredientes.proteina.nombre}, Modo preparación: ${receta.ingredientes.proteina.preparacion}</li>
+                <li> Salsa: ${receta.ingredientes.salsa.nombre} (${receta.ingredientes.salsa.picor})</li>
+                ${receta.ingredientes.acompañamientos.map(acompañamiento => `<li> Acompañamiento: ${acompañamiento.cantidad} : ${acompañamiento.nombre}</li>`).join("")}</ul>`;
+                    }
+                });
+            });
+    </script>
+<script src="/ejercicios_2.1/AppRecetaTacos/index.js"></script>
+</body>
+</html>
