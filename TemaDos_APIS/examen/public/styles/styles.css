@@ -1,0 +1,44 @@
+:root {
+    --card-height: 85vh;
+    --card-width: calc(var(--card-height) / 5*4);
+}
+
+body {
+    min-height: 100vh;
+    background: linear-gradient(to right, #1e3c72, #2a5298);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 2rem;
+    font-family: "Lato", sans-serif;
+}
+
+h1 {
+    color: white;
+    margin-bottom: 20px;
+}
+
+.card {
+    
+    background: 
+        linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),
+        url("../imagenes/img.avif");
+    background-size: cover;
+    background-position: center;
+    width: var(--card-width);
+    height: var(--card-height);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+    color: white;
+    text-align: center;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+}
+
+.card p {
+    margin: 10px 0;
+    font-size: 1.3em;
+}
